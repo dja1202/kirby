@@ -1,13 +1,18 @@
-### Kirby Animation Project
+## Kirby Loop Animation Project
 
+### Understanding
 This project aims to create a dynamic animation using VSync to enhance the understanding of:
 - Utilizing the vBlank period
 - Drawing and erasing pixels in Mode 3
 - Working with an infinite while loop
 
-This project required implementing a looping animation of at least four distinct frames in Mode 3 with button controls to handle various playback functions. The theme was Kirby and I used a kirby image from Haykira's twitter page (https://x.com/i/status/1312414121778982914) as my reference
+### Instruction
+This project is focused on creating a dynamic animation using VSync in Mode 3 to enhance understanding of visual rendering techniques on the Game Boy Advance. It involves implementing a looping animation with at least four distinct frames based on the Kirby universe, featuring characters such as Kirby, Waddle Dee, and Warp Star. The animation is controlled through button inputs that allow frame navigation, looping, playback direction toggling, and speed adjustments.
 
-## Button Controls
+### My Project
+I created 5 distinct frames using a kirby image from Haykira's twitter page (https://x.com/i/status/1312414121778982914) as my reference!
+
+### Button Controls
 - A: Advance to the next frame. If at the final frame, return to the first frame.
 - B: Return to the previous frame. If at the first frame, go to the final frame.
 - Start: Toggle looping through frames (acts as a play/pause button).
